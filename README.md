@@ -39,7 +39,7 @@ The attack builds on the concepts of the conditional branch misprediction [Spect
    ```
 5. Make the program
    ```terminal
-   cd
+   cd src
    make PREFIX_FOR_SEAL=${HOME}/.local
    ```
    * `PREFIX_FOR_SEAL` is set to the path to the directory where Microsoft SEAL is installed (the path is the same as the value of `-DMAKE_INSTALL_PREFIX` option for building Microsoft SEAL.)
